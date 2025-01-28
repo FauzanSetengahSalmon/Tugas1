@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+}
+
+.wrapper {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding : 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.masuk {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4caf50;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.masuk :hover {
+    opacity: 0.8s;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button :hover {
+    opacity: 0.8s;
+}
+
+.red {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.red :hover {
+    opacity: 0.8s;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding : 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+p {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p button {
+    margin-left: 10px;
+}
+
